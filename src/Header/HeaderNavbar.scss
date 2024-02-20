@@ -1,0 +1,47 @@
+.header-nav-bar {
+    position: sticky;
+    top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    transition: all 0.3s;
+    
+
+    &.full-width {
+        top: 0;
+        max-width: 100%;
+        background: linear-gradient(113deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.75) 110.84%);
+        box-shadow: 0px 7px 23px 0px rgba(0, 0, 0, 0.05);
+
+        .navbar {
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        a.nav-link {
+            color: black;
+        }
+    }
+
+    .header-navbar-links {
+        display: flex;
+    }
+
+    .btn {
+        border-radius: 34.5px;
+        background: linear-gradient(82deg, #313860 2.25%, #151928 79.87%);
+        padding: 8px 26px;
+        border: 1px solid transparent;
+        transition: all 1s;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        
+        &:hover {
+            border: 1px solid black;
+            background: transparent;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.sign-up-page {
+    .sign-up-content {
+        margin-top: -70px;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .title {
+            margin-top: -150px;
+            z-index: 1;
+        }
+
+        .title-wrapper {
+            background-image: url(../Images/sigUpbackgroung.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+            min-height: 550px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            p {
+                font-weight: 400;
+                max-width: 330px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+        }
+    }
+
+    .navbar {
+        background-color: transparent !important;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        backdrop-filter: none;
+    }
+
+    .form-wrapper {
+        border-radius: 15px;
+        box-shadow: 0px 7px 23px 0px rgba(0, 0, 0, 0.05);
+        background-color: var(--black-amp-white-white, #fff);
+        display: flex;
+        max-width: 452px;
+        flex-direction: column;
+        padding: 49px 51px;
+        margin-top: -250px;
+
+        h3 {
+            color: var(--Gray-Gray-700, #2d3748);
+            text-align: center;
+            align-self: center;
+            white-space: nowrap;
+            font: 700 18px/140% Helvetica, -apple-system, Roboto, Helvetica,
+            sans-serif;
+        }
+
+        .link-block {
+            align-self: center;
+            display: flex;
+            margin-top: 25px;
+            width: 255px;
+            max-width: 100%;
+            gap: 15px;
+
+            .img {
+                aspect-ratio: 1;
+                object-fit: contain;
+                object-position: center;
+                width: 100%;
+                overflow: hidden;
+                flex: 1;
+            }
+        }
+        
+        span {
+            color: var(--Gray-Gray-400, #a0aec0);
+            text-align: center;
+            align-self: center;
+            margin-top: 29px;
+            white-space: nowrap;
+            font: 700 18px/140% Helvetica, -apple-system, Roboto, Helvetica,
+            sans-serif;
+        }
+    }
+}

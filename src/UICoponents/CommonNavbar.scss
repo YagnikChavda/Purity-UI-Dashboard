@@ -1,0 +1,23 @@
+.header-nav-bar:not(.full-width) {
+    .navbar {
+        border-radius: 15px;
+        border: 1.5px solid #FFF;
+        background: linear-gradient(113deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.80) 110.84%);
+        box-shadow: 0px 7px 23px 0px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(10.500000953674316px);
+    }
+}
+
+.navbar {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--Gray-Gray-700, #2D3748);
+    text-align: center;
+    margin: 0 40px;
+    text-transform: capitalize;
+}

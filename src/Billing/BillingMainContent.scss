@@ -1,0 +1,287 @@
+.payment-method-wrapper,
+.biling-info-item-wrapper,
+.billing-transaction-wrapper,
+.Billing-invoice-wrapper {
+    padding: 28px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+
+    .billing-heading-title {
+        color: #2D3748;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    ul,
+    li  {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.biling-info-item-wrapper {
+   
+    .user-data-wrapper {
+        border-radius: 12px;
+        background: #F8F9FA;
+        padding: 26px;
+        margin: 15px 0;
+
+        .username-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+          
+            p {
+                margin: 0;
+            }
+    
+            .update-setings {
+                display: flex;
+                align-items: center;
+    
+                li {
+                    a {
+                        color: #2D3748;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 15px;
+                        text-decoration: none;
+                    }
+                    
+                    &.delete-option {
+                        a {
+                            color: #E53E3E;
+                            margin-right: 21px;
+                        }
+                    }
+    
+                    svg {
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+
+        .user-info-wrapper {
+            color: #A0AEC0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+
+            p {
+                margin: 5px 0;
+            }
+
+            span {
+                color: #718096;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.payment-method-wrapper {
+    .payment-title-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            margin: 0;
+        }
+
+        .payment-btn {
+            font-size: 14px;
+            line-height: 1.1;
+            padding: 10px 20px;
+            font-weight: 700;
+            border-radius: 12px;
+            background: linear-gradient(82deg, #313860 2.25%, #151928 79.87%);
+            border: 1px solid transparent;
+
+            &:hover {
+                background: transparent;
+                border: 1px solid #2D3748;
+                color: #2D3748;
+            }
+        }
+    }   
+
+    .payment-option-form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 -10px;
+
+        > .input-items {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 10px;
+            margin: 25px 0 0;
+            position: relative;
+
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 25px;
+                transform: translate(0 , -50%);
+
+                &.icon-pen {
+                    font-size: 12px;
+                    left: auto;
+                    right: 30px;
+                    font-weight: 400;
+                }
+            }
+
+            .form-control {
+                padding: 20px 45px 20px 45px;
+                border-radius: 15px;
+                border: 1px solid #E2E8F0;
+                background:  #FFF;
+                color: #A0AEC0;
+        
+                &::placeholder {
+                    color: #A0AEC0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+
+            }
+        }
+    }
+}
+
+.billing-transaction-wrapper {
+  
+
+    .billing-transaction-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        svg {
+            margin-right: 15px;
+            font-size: 15px;
+            color: #48BB78;
+            border: 2px solid #48BB78;
+            border-radius: 100%;
+            padding: 15px;
+
+            &.debit {
+                color: #E53E3E;
+                border-color: #E53E3E; 
+            }
+        }
+
+        .details {
+            span {
+                color: #A0AEC0;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 1.1;
+            }
+        }
+    }
+
+    .billing-transaction-amount {
+        p {
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -10px;
+            }
+
+            &.credit {
+                color: #48BB78;
+               
+                &::after {
+                    content: '+';
+                }
+            }
+
+            &.debit {
+                color: #E53E3E;
+
+                &::after {
+                    content: '-';
+                }
+            }
+        }
+    }
+}
+
+.Billing-invoice-wrapper {
+    .billing-transaction-invoice-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 25px 0;
+    }
+
+    .billing-transaction-amount,
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .billing-transaction-amount {
+        .amount {
+            margin-right: 25px;
+            color: #A0AEC0;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        a {
+            color: #2D3748;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.1;
+            text-decoration: none;
+        }
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: flex-start;
+
+        p {
+            color: #2D3748;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+        
+        span {
+            margin-top: 5px;
+            color: #A0AEC0;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1.1;
+
+            &::before {
+                content: "#";
+            }
+        }
+    }
+}

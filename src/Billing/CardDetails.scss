@@ -1,0 +1,61 @@
+.card-details-wrappers {
+    border-radius: 15px;
+    border: 0.5px solid #FFF;
+    border-radius: 15px;
+    background: linear-gradient(82deg, #313860 2.25%, #151928 79.87%);
+    backdrop-filter: blur(10.499999046325684px);
+    height: 240px;
+    max-width: 500px;
+    width: 100%;
+    color: white;
+    padding: 25px 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+    }
+
+    .card-details {
+        .card-number {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 12px;
+        }
+
+        .card-info {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+    
+            .card-expiry-date {
+                margin-right: 40px;
+            }
+    
+            p {
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 1.1;
+            }
+    
+            span {
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 1.1;
+            }
+        }
+    }
+
+  
+}

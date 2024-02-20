@@ -1,0 +1,341 @@
+
+.store-chart {
+  margin: 15px 0;
+}
+
+.span {
+    border-radius: 15px;
+    box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+    background-color: var(--black-amp-white-white, #fff);
+    display: flex;
+    max-width: 924px;
+    flex-direction: column;
+    padding: 33px 21px;
+  }
+  @media (max-width: 991px) {
+    .span {
+      padding-left: 20px;
+    }
+  }
+  .div {
+    color: var(--Gray-Gray-700, #2d3748);
+    align-self: stretch;
+    font: 700 18px/140% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div {
+      max-width: 100%;
+    }
+  }
+  .div-2 {
+    color: var(--Gray-Gray-400, #a0aec0);
+    align-self: stretch;
+    margin-top: 17px;
+    font: 400 14px/140% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+    }
+  }
+  .div-3 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 46px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .span-2 {
+    display: flex;
+    flex-basis: 0%;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .span-2 {
+      display: none;
+    }
+  }
+  .div-4 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      white-space: initial;
+    }
+  }
+  .div-5 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    margin-top: 42px;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-6 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    margin-top: 42px;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-7 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    margin-top: 42px;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-8 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    margin-top: 42px;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-9 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    white-space: nowrap;
+    margin: 42px 0 0 11px;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      white-space: initial;
+      margin: 40px 0 0 10px;
+    }
+  }
+  .div-10 {
+    align-self: center;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      max-width: 100%;
+    }
+  }
+  .div-11 {
+    background-color: #e2e8f0;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+    }
+  }
+  .div-12 {
+    disply: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 250px;
+    width: 100%;
+    padding: 50px 0;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      max-width: 100%;
+    }
+  }
+.store-chart .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-13 {
+    position: relative;
+    background-color: #e2e8f0;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      max-width: 100%;
+    }
+  }
+  .div-14 {
+    position: relative;
+    background-color: #e2e8f0;
+    margin-top: 49px;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-15 {
+    position: relative;
+    background-color: #e2e8f0;
+    margin-top: 49px;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-16 {
+    position: relative;
+    background-color: #e2e8f0;
+    margin-top: 49px;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .span-3 {
+    align-self: center;
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 842px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .span-3 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-17 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      white-space: initial;
+    }
+  }
+  .div-18 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-19 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-20 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-21 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-22 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-23 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-24 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-25 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: stretch;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-26 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-27 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-28 {
+    color: var(--Gray-Gray-300, #cbd5e0);
+    align-self: start;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 700 10px/150% Helvetica, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-28 {
+      white-space: initial;
+    }
+  }
